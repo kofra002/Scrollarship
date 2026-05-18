@@ -5,7 +5,7 @@ import {NavLink, useNavigate} from "react-router-dom";
 function FeatureChase() {
   return (
     <div>
-      <div>
+      <div className='chaseRoot'>
         <h2>Cut to the chase!</h2>
         <p>No more long videos, boil it down to the essentials! Find videos for your specific problems to work faster and more efficient than ever!</p>
       </div>
@@ -18,7 +18,7 @@ function FeatureInteractive() {
   return (
     <div>
       <div><img /></div>
-      <div>
+      <div className='interactiveRoot'>
         <h2>Interactive problem solving</h2>
         <p>Get interactive tasks from the lessons you encounter as well as explanations for the given task at hand!</p>
       </div>
@@ -56,8 +56,8 @@ function Hero() {
       <div>
         <h1>Learn Better,<br />Faster</h1>
         <p>Scrollarship is a platform tailored for people wanting to improve their academic performance through engaging and interactive learning</p>
-        <button className='heroButton'>
-          <NavLink to='/explore' state={{ signUp: true }}>Get Started</NavLink>
+        <button className='heroButton' onClick={() => navigate('/explore')}>
+          Get Started
         </button>
       </div>
       <div className='scrollImg'>

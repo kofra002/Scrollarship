@@ -95,14 +95,61 @@ header nav .signLogContainers {
 /* Footer */
 footer {
     display: flex;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #4A33E0;
+    color: white;
 }
+.footerImagesRoot {
+    width: 100%;
+}
+.footerImagesRoot img {
+    width: 10%;
+}
+.youtubeIconRoot {
+    padding-left: 2.5rem;
+}
+.footernavigationRoot {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14rem;
+}
+.footercomplianceRoot {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12rem;
+}
+.footercomplianceRoot p {
+    margin: 1px;
+}
+.footercomplianceRoot p b {
+    font-size: 2rem;
+}
+.footernavigationRoot p {
+    margin: 1px;
+}
+.footernavigationRoot p b {
+    font-size: 2rem;
+}
+.footerIncRoot {
+    display: flex;
+    justify-content: bottom;
+    padding-left: 2.5rem;
+}
+.footerLogoRoot {
+    display: flex;
+    width: 40%;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
 
 /* Index */
 .heroRoot {
     display: flex;
     margin: 3rem;
+    color: #4A33E0;
 }
 .scrollImg {
     width: 100%;
@@ -114,6 +161,7 @@ footer {
 }
 .heroButton {
     background-color: #4A33E0;
+    color: white;
     border: none;
     border-radius: 0.5rem;
     padding: 1rem 1.5rem;
@@ -126,12 +174,19 @@ footer {
 .cardsRoot {
     display: flex;
     margin: 10rem 0rem 0rem 0rem;
+    color: white;
 }
 .cardsRoot div {
     background-color: #4A33E0;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
+}
+.interactiveRoot {
+    color: #4A33E0;
+}
+.chaseRoot {
+    color: #4A33E0;
 }
 /* Auth */
 .authRoot {
