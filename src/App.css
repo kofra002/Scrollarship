@@ -174,13 +174,20 @@ footer {
 .cardsRoot {
     display: flex;
     margin: 10rem 0rem 0rem 0rem;
+    justify-content: center;
     color: white;
 }
 .cardsRoot div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #4A33E0;
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
+}
+.cardsImageRoot {
+    width: 20%;
 }
 .interactiveRoot {
     color: #4A33E0;
