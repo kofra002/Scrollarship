@@ -101,7 +101,6 @@ function Scroll() {
     mousewheel={true}
     style={swiperContainer}
     spaceBetween={10}
-    loop={true}
     onSlideChangeTransitionEnd={() => handlePlaying()}
     virtual
     >
